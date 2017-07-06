@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>homePage</title>
+    <link rel="stylesheet"; type = "text/css"; href="homePage.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-center">
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button w3-black ">HOME</a>
+        <a href="#attributions" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> ATTRIBUTIONS </a>
+        <a href="#team" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> TEAM</a>
+        <a href="#project" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> PROJECT</a>
+        <a href="#parts" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> BIOBRICKS </a>
+        <a href="#safety" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> SAFETY</a>
+        <a href="#practices" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> PRACTICES </a>
+        <a href="#collaborations" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> COLLABORATIONS </a>
+        <a href="#requirements" class="w3-bar-item w3-button w3-black w3-hide-small"><i class="fa fa-circle-thin"></i> REQUIREMENTS </a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        </a>
+    </div>
+</div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small">Stanford-Brown</span> iGEM </span>
+    </div>
+</div>
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ABOUT DA CREW</h3>
+    <p class="w3-center">We like space.</p>
+
+    <!-- About Image -->
+
+    <img src="https://lh3.google.com/u/0/d/0B3agQiLIJHUcQndoamN3ME1fNWM=w1244-h710-iv1" class="w3-round-large" alt="Team Picture" id="aboutimg">
+
+</div>
+<!-- Container (Project Descriptions) -->
+    <div class="w3-content w3-contatiner w3-padding-64" id="project descriptions">
+    <h3 class="w3-center">Project Descriptions</h3>
+    <p class="w3-center">There are materials and capabilities that would enable or greatly enhance space exploration, but present production on Earth requires a substantial mass and infrastructure.  For example, while rubber is ubiquitous in our lives, from our gloves in the lab to the soles of our shoes to the tires on our cars, bringing a rubber tree into space is impractical. Rubbers have incredible applications as shock absorbers, insulators, or even as lubricants. Similarly, batteries have their own unique issues in terms of payload expense and chemical hazards. Additional application might certainly become apparent in the event both the rubber, or even the battery, be created from self-healing materials. </p>
+
+    <p class="w3-center">Our first project project centers around the concept of a latex ecosystem, building on the latex construct developed by our predecessor team, Stanford-Brown 2016, and previous rubber degradation processes developed by other teams. Imagine scientists on the ISS being able to simply discard latex gloves into an E. coli culture, only to have a separate culture using the products of the first in the production of a new glove. Not only would this help decrease costs for expensive payloads, but such a concept could aid to further global efforts against scientific and medical waste. As a central component to this project aims to generate a way to control latex polymerization, there are many conceivable applications in industry for the generation of latex as well.</p>
+
+    <p class="w3-center">Even the best materials may be vulnerable to breakage, thus putting the mission at risk.  Thus, our second project focuses on self-healing materials. The attractive feature of such materials is their ability to repair and mend their own wounds, by the action of incorporated healing agents. Yet, in synthetic self-healing materials, only a limited amount of healing agent is available. Through integrating a biological component, such as an optogenetically activated, glue-secreting bacteria, we aim to control the metabolism of these bacteria to promote self-healing repeatedly. Such a novel technology could also seek to reduce waste, given potential incorporation in manufacturing processes, while certainly providing expansive applications both in terms of acting as a device material for a battery, or a material for critical components necessary for space exploration.</p>
+
+    <p class="w3-center">In considering self-healing material applications, such as insulation for a battery, we have decided to test the limits of biology. bioBactery is our third project, inspired by the natural structure of electric eels. Here we seek to generate an electrical differential across a densely packed colony of highly-organized E. coli within a microfluidic device, via optogenetically-induced ionic transport. This project would seek to circumvent issues surrounding high payload costs, or explosive hazards from chemical batteries.  </p>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="footer">
+    <!--stuff-->
+</div>
+
+</body>
+
+</html>
